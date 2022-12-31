@@ -17,7 +17,6 @@
     "build": "rollup -c",
     "cz": "git-cz",
     "semantic-release": "semantic-release",
-    "postinstall": "if [[ $NODE_ENVIRONMENT != \"production\" ]]; then husky install; fi",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
