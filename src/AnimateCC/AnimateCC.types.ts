@@ -1,4 +1,4 @@
-import { HTMLProps } from 'react';
+import { HTMLProps, CSSProperties } from 'react';
 
 import { Properties } from 'types/AdobeAn';
 
@@ -22,6 +22,7 @@ export interface Props extends HTMLProps<HTMLDivElement> {
    * @description Whether an animation should be paused
    */
   paused?: boolean;
+  canvasStyle?: CSSProperties;
   /**
    * @description Function called whenever an error is thrown inside the component
    */
